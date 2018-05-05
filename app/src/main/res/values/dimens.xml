@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pl16">16dp</dimen>
+    <dimen name="pt16">16dp</dimen>
+    <dimen name="pr16">16dp</dimen>
+    <dimen name="pb16">16dp</dimen>
+    <dimen name="w200">200dp</dimen>
+    <dimen name="h150">150dp</dimen>
+    <dimen name="ml8">8dp</dimen>
+    <dimen name="bouncer150">150dp</dimen>
+    <dimen name="linea100">100dp</dimen>
+    <dimen name="kids_mt1">1dp</dimen>
+    <dimen name="pb8">8dp</dimen>
+    <dimen name="pt8">8dp</dimen>
+    <dimen name="ts18">18sp</dimen>
+    <dimen name="p16">16dp</dimen>
+    <dimen name="mt1">1dp</dimen>
+    <dimen name="mb1">1dp</dimen>
+    <dimen name="ts15">15sp</dimen>
+    <dimen name="kids_mb1">1dp</dimen>
+</resources>

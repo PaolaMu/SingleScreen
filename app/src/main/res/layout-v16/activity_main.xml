@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="@color/blue">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/pl16"
+        android:paddingStart="@dimen/pl16"
+        android:paddingTop="@dimen/pt16"
+        android:paddingRight="@dimen/pr16"
+        android:paddingEnd="@dimen/pr16">
+
+    <ImageView
+        android:id="@+id/Kids"
+        android:layout_width="@dimen/w200"
+        android:layout_height="@dimen/h150"
+        android:layout_marginLeft="@dimen/ml8"
+        android:layout_marginStart="@dimen/ml8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/play4"
+        tools:ignore="contentDescription"/>
+
+
+    <ImageView
+        android:id="@+id/bouncer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bouncer150"
+        android:layout_toRightOf="@id/Kids"
+        android:layout_toEndOf="@id/Kids"
+        android:src="@drawable/bounce"
+        tools:ignore="contentDescription"/>
+
+   <ImageView
+       android:id="@+id/linea"
+       android:layout_below="@id/Kids"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/linea100"
+       android:src="@drawable/linea"
+       tools:ignore="contentDescription"/>
+
+    <LinearLayout
+        android:background="@color/back_color"
+        android:padding="@dimen/p16"
+        android:id="@+id/linear"
+        android:layout_below="@id/linea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/kids_mt1"
+            android:layout_marginBottom="@dimen/kids_mb1"
+            android:paddingLeft="@dimen/pl16"
+            android:paddingStart="@dimen/pl16"
+            android:paddingRight="@dimen/pr16"
+            android:paddingEnd="@dimen/pr16"
+            android:paddingTop="@dimen/pt8"
+            android:paddingBottom="@dimen/pb8"
+            android:layout_gravity="center"
+            android:textSize="@dimen/ts18"
+            android:textColor="@color/white"
+            android:fontFamily="casual"
+            android:text="@string/kids_play_indoor_play_center" />
+
+        <TextView
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/kids_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mt1"
+            android:layout_marginBottom="@dimen/mb1"
+            android:paddingLeft="@dimen/pl16"
+            android:paddingStart="@dimen/pl16"
+            android:paddingRight="@dimen/pr16"
+            android:paddingEnd="@dimen/pr16"
+            android:paddingTop="@dimen/pt8"
+            android:paddingBottom="@dimen/pb8"
+            android:textColor="@color/black"
+            android:textSize="@dimen/ts15"
+            android:autoLink="web"
+            android:drawableLeft="@drawable/web2"
+            android:drawableStart="@drawable/web2"
+            android:fontFamily="casual"
+            android:text="@string/www_kids_play_com"/>
+
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mt1"
+        android:layout_marginBottom="@dimen/mb1"
+        android:paddingLeft="@dimen/pl16"
+        android:paddingStart="@dimen/pl16"
+        android:paddingRight="@dimen/pr16"
+        android:paddingEnd="@dimen/pr16"
+        android:paddingTop="@dimen/pt8"
+        android:paddingBottom="@dimen/pb8"
+        android:textSize="@dimen/ts15"
+        android:fontFamily="casual"
+        android:textColor="@color/white"
+        android:autoLink="map"
+        android:drawableLeft="@drawable/map"
+        android:drawableStart="@drawable/map"
+        android:text="@string/_5551_happy_ln_spring_tx_77389" />
+
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mt1"
+        android:layout_marginBottom="@dimen/mb1"
+        android:paddingLeft="@dimen/pl16"
+        android:paddingStart="@dimen/pl16"
+        android:paddingRight="@dimen/pr16"
+        android:paddingEnd="@dimen/pr16"
+        android:paddingTop="@dimen/pt8"
+        android:paddingBottom="@dimen/pb8"
+        android:textSize="@dimen/ts15"
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:drawableLeft="@drawable/phone"
+        android:drawableStart="@drawable/phone"
+        android:autoLink="phone"
+        android:text="@string/_732_333_2211" />
+
+        <TextView
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mt1"
+            android:layout_marginBottom="@dimen/mb1"
+            android:paddingLeft="@dimen/pl16"
+            android:paddingStart="@dimen/pl16"
+            android:paddingRight="@dimen/pr16"
+            android:paddingEnd="@dimen/pr16"
+            android:paddingTop="@dimen/pt8"
+            android:paddingBottom="@dimen/pb8"
+            android:textSize="@dimen/ts15"
+            android:textColor="@color/white"
+            android:fontFamily="casual"
+            android:drawableLeft="@drawable/email"
+            android:drawableStart="@drawable/email"
+            android:autoLink="email"
+            android:text="@string/kids_play_g_mail_com" />
+
+        <TextView
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mt1"
+            android:layout_marginBottom="@dimen/mb1"
+            android:paddingLeft="@dimen/pl16"
+            android:paddingStart="@dimen/pl16"
+            android:paddingRight="@dimen/pr16"
+            android:paddingEnd="@dimen/pr16"
+            android:paddingTop="@dimen/pt8"
+            android:paddingBottom="@dimen/pb8"
+            android:textSize="@dimen/ts15"
+            android:textColor="@color/white"
+            android:fontFamily="casual"
+            android:drawableLeft="@drawable/clock"
+            android:drawableStart="@drawable/clock"
+            android:text="@string/tu_sun_10am_7pm"
+            tools:targetApi="jelly_bean" />
+        
+        </LinearLayout>
+
+        <Button
+            android:layout_below="@id/linear"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/button_blue"
+            android:text="@string/book_your_party"/>
+
+    </RelativeLayout>
+
+</ScrollView>
